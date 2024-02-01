@@ -26,9 +26,7 @@ export class QuizzComponent {
       this.title = quizz_questions.title;
 
       this.questions = quizz_questions.questions;
-      console.log(this.questions);
       this.questionSelected = this.questions[this.questionIndex];
-      console.log(this.questionSelected.question);
 
       this.questionMaxIndex = this.questions.length;
     }
